@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "产品名称"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情页"
+			}
+		},
+		{
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/shopping/index",
+			"style": {
+				"navigationBarTitleText": "商场"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "navigationStyle": "custom"  
+	},
+	"tabBar": {
+		"borderStyle":"black",
+		"color": "#333",
+		"selectedColor": "#82C91E",
+		"backgroundColor": "#ffffff",
+	    "list": [{
+	      "pagePath": "pages/index/index",
+	      "text": "首页",
+		  "iconPath": "static/home11.png",
+          "selectedIconPath": "static/home22.png"
+	    }, 
+		{
+	      "pagePath": "pages/community/index",
+	      "text": "社区",
+		  "iconPath": "static/community11.png",
+          "selectedIconPath": "static/community22.png"
+	    }, 
+		{
+	      "pagePath": "pages/shopping/index",
+	      "text": "商场",
+		  "iconPath": "static/shopping2.png",
+          "selectedIconPath": "static/shopping1.png"
+	    }]
+	  }
+}

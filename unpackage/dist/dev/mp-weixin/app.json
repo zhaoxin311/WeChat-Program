@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/community/index",
+    "pages/shopping/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#333",
+    "selectedColor": "#82C91E",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home11.png",
+        "selectedIconPath": "static/home22.png"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "text": "社区",
+        "iconPath": "static/community11.png",
+        "selectedIconPath": "static/community22.png"
+      },
+      {
+        "pagePath": "pages/shopping/index",
+        "text": "商场",
+        "iconPath": "static/shopping2.png",
+        "selectedIconPath": "static/shopping1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
