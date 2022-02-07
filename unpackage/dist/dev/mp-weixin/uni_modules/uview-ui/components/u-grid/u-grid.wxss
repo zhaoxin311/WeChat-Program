@@ -25,22 +25,25 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.grid-text {
+view.data-v-121efd29, scroll-view.data-v-121efd29, swiper-item.data-v-121efd29 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: #333333;
-  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
 }
-.item {
-  width: 150px;
-  height: 222px;
-  margin: 5px;
-  border: 1px solid rgba(173, 174, 179, 0.09);
-  border-radius: 14px;
-  background-color: white;
-  box-shadow: 3px 3px 6px rgba(173, 174, 179, 0.09);
+.u-grid.data-v-121efd29 {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 

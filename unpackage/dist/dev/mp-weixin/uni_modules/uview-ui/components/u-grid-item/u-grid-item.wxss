@@ -25,22 +25,27 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.grid-text {
+view.data-v-5b3a01af, scroll-view.data-v-5b3a01af, swiper-item.data-v-5b3a01af {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-grid-item.data-v-5b3a01af {
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  color: #333333;
+  position: relative;
+  flex-direction: column;
   box-sizing: border-box;
+  display: flex;
+  position: relative;
+  float: left;
+  margin-top: 1rpx;
 }
-.item {
-  width: 150px;
-  height: 222px;
-  margin: 5px;
-  border: 1px solid rgba(173, 174, 179, 0.09);
-  border-radius: 14px;
-  background-color: white;
-  box-shadow: 3px 3px 6px rgba(173, 174, 179, 0.09);
+.u-grid-item--hover-class.data-v-5b3a01af {
+  opacity: 0.5;
 }
 
