@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/detail/detail",
     "pages/community/index",
-    "pages/shopping/index"
+    "pages/shopping/index",
+    "pages/index/index",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {

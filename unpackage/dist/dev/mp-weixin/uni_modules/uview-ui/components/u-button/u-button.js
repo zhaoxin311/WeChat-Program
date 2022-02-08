@@ -80,10 +80,10 @@ var components
 try {
   components = {
     uLoadingIcon: function() {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 244))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 290))
     },
     uIcon: function() {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 270))
+      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 255))
     }
   }
 } catch (e) {
@@ -265,8 +265,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _button = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/button.js */ 291));
-var _openType = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/openType.js */ 292));
+var _button = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/button.js */ 345));
+var _openType = _interopRequireDefault(__webpack_require__(/*! ../../libs/mixin/openType.js */ 346));
 var _props = _interopRequireDefault(__webpack_require__(/*! ./props.js */ 389));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //

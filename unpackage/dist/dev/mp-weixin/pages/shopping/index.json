@@ -1,10 +1,16 @@
 {
   "navigationBarTitleText": "商场",
   "usingComponents": {
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-list": "/uni_modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/uni_modules/uview-ui/components/u-list-item/u-list-item",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
     "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
     "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
-    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
-    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
-    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image"
   }
 }
