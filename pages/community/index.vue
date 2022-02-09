@@ -77,17 +77,6 @@
 					num2:22,
 					num3:78,
 					num4:321,
-				},{
-					id:4,
-					avatar:'/static/plant3.png',
-					name:'方恩与',
-					time:22,
-					image:'/static/swiper1.png',
-					title:'下面我们会从不同维度来分析一下',
-					num1:41,
-					num2:253,
-					num3:43,
-					num4:321,
 				},
 				]
             }
